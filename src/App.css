@@ -1,4 +1,45 @@
-.App {
+body {
+  width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  padding: 10px;
+}
+
+header {
+  font-family: 'Poiret One', cursive
+}
+
+header a {
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 10px 20px;
+}
+
+.angel-image {
+  padding: 10px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +76,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
