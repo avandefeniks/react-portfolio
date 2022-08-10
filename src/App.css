@@ -1,6 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --light: #fafafa;
+  --dark: #000000;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
 body {
   width: 98%;
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--light);
+  background: var(--dark);
 }
 
 h1,
@@ -17,18 +34,21 @@ h6 {
 }
 
 header {
-  font-family: 'Poiret One', cursive
+  font-family: 'Poiret One', cursive;
+  height: 110px;
+  background-image: linear-gradient(to right, rgb(54, 54, 58), rgb(13, 13, 14));
 }
 
 header a {
   text-decoration: none;
   font-family: 'Poiret One', cursive;
-  color: black;
+  color: var(--light);
   
 }
 
 header nav ul {
   list-style: none;
+  font-size: 25px;
 }
 
 header nav ul li {
@@ -39,6 +59,57 @@ header nav ul li {
   padding: 10px;
 }
 
+.about-me {
+  padding: 10px;
+}
+
+.about-me-text {
+  padding-left: 35px;
+}
+
+.contact-form {
+  padding-left: 50px;
+}
+
+.contact-list{
+  list-style: none;
+  font-size: 20px;
+}
+
+.contact-list li {
+  padding: 10px 20px;
+}
+
+.contact-list li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.div-contact-me {
+  font-family: 'Poiret One', cursive;
+  height: 60px;
+  background-image: linear-gradient(to right, rgb(54, 54, 58), rgb(13, 13, 14));
+  margin-top: 20px;
+}
+
+.div-resume {
+  padding-left: 50px;
+}
+
+.resume-list {
+  list-style: none;
+}
+
+.navActive {
+  color: rgb(195, 193, 193);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 /* .App {
   text-align: center;
 }
