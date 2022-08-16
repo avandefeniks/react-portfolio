@@ -13,16 +13,16 @@ function Header({setpage}) {
     }
 
     return (
-        <header className="d-flex flex-row justify-content-around">
-        <h1>
+        <header className="row d-flex flex-row justify-content-around">
+        <h1 className="col-12 col-md-6">
             <a href="/">Angel Van de Feniks</a>
         </h1>
-            <nav>
-                <ul className="d-flex flex-row">
-                    <li onClick={(e) => activeNav(e, 'about')}>About Me</li>
-                    <li onClick={(e) => activeNav(e, 'projects')}>Portfolio</li>
-                    <li onClick={(e) => activeNav(e, 'contact')}>Contact</li>
-                    <li onClick={(e) => activeNav(e, 'resume')}>Resume</li>
+            <nav className="col-12 col-md-6">
+                <ul className="nav-list row d-flex flex-row">
+                    <li className="col" onClick={(e) => activeNav(e, 'about')}>About Me</li>
+                    <li className="col" onClick={(e) => activeNav(e, 'projects')}>Portfolio</li>
+                    <li className="col" onClick={(e) => activeNav(e, 'contact')}>Contact</li>
+                    <li className="col" onClick={(e) => activeNav(e, 'resume')}>Resume</li>
                 </ul>
             </nav>
         </header>
