@@ -43,6 +43,8 @@ function ContactForm() {
     return (
         <section className='contact-form'>
             <h2 id='contact'>Contact me</h2>
+            <h6>This form is currently under construction. Please contact me at <a href="mailto:angelj.vandefeniks@gmail.com">
+                            angelj.vandefeniks@gmail.com</a></h6>
             <form id='contact-form'>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -67,7 +69,7 @@ function ContactForm() {
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" onClick={handleSubmit}>Submit</button>
             </form>
         </section>
     )

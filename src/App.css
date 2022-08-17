@@ -39,7 +39,7 @@ header {
   background-image: linear-gradient(to right, rgb(54, 54, 58), rgb(8, 8, 8));
 }
 
-header a {
+.angel {
   text-decoration: none;
   font-family: 'Poiret One', cursive;
   color: var(--light);
@@ -107,7 +107,7 @@ header nav ul li {
 }
 
 .navActive {
-  color: rgb(195, 193, 193);
+  color: rgb(97, 97, 97);
 }
 
 .footer {
@@ -179,6 +179,27 @@ header nav ul li {
   font-weight: bold;
   font-family: 'Shadows Into Light', cursive;
 
+}
+
+h6 a {
+  text-decoration: none;
+  color: rgb(117, 116, 116);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  .footer {
+    position: fixed;
+    bottom: 0; 
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0; 
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */

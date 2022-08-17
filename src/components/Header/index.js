@@ -14,8 +14,8 @@ function Header({setpage}) {
 
     return (
         <header className="row d-flex flex-row justify-content-around">
-        <h1 className="col-12 col-md-6">
-            <a href="/">Angel Van de Feniks</a>
+        <h1 className="angel col-12 col-md-6">
+            Angel Van de Feniks
         </h1>
             <nav className="col-12 col-md-6">
                 <ul className="nav-list row d-flex flex-row">

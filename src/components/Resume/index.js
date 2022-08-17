@@ -6,7 +6,8 @@ function Resume() {
     return (
         <div className='div-resume'>
             <h2>Resume</h2>
-            <h6>Download my resume</h6>
+            <h6>Download my <span className='resume-link'><a href="../../assets/files/AngelVandeFeniksResume.docx" 
+                    download>resume</a></span></h6>
             <h4>Front-end Proficiencies</h4>
             <ul className='resume-list'>
                 <li>
@@ -45,6 +46,9 @@ function Resume() {
                 </li>
                 <li>
                     NoSQL | MongoDB | Mongoose
+                </li>
+                <li>
+                    GrapgQL
                 </li>
                 <li>
                     API
