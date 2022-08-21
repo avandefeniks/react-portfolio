@@ -189,7 +189,7 @@ h6 a {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   .footer {
-    position: fixed;
+    position: relative;
     bottom: 0; 
   }
 
