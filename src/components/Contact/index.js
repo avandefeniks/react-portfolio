@@ -37,7 +37,7 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
-        // setFormState({ name: '', email: '', message: '' });
+        setFormState({ name: '', email: '', message: '' });
     }
 
 
