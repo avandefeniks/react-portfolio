@@ -3,7 +3,7 @@
         "id": 1,
         "name": "My Garden Planner",
         "image": "./images/MyGardenPlannerHero.jpg",
-        "github": "https://github.com/ptran77/project-2",
+        "github": "https://github.com/ptran77/garden-planner",
         "url": "https://garden-planner-90482.herokuapp.com/",
         "description": "This was a collaborative project that myself and three other classmates worked on from my Coding Bootcamp. The site we developed is dedicated to those seeking to learn about gardening",
         "languages": "MySQL | Sequelize ODM | Node.js | Express.js | .env | Handlebars | Tailwind CSS | HTML | CSS"
@@ -34,5 +34,14 @@
         "url": "https://avandefeniks.github.io/weather-dashboard/",
         "description": "This is an application that shows the current weather, 5-day forcast and UV Index by city. Search history is persistant utilizing local storage",
         "languages": "JavaScript | Bootstrap | CSS | HTML"
+    },
+    {
+        "id": 5,
+        "name": "Purly",
+        "image": "./images/Purly.jpg",
+        "github": "https://github.com/hectorromo06/purly",
+        "url": "https://purly.herokuapp.com/",
+        "description": "This is a collabrative application that was done by myself and 5 other students. The application is for people who are into knitting at all skill levels allowing them to find patterns for their projects and add new ones",
+        "languages": "MongoDB | Mongoose | GraphQL | React | Express.js | CSS | HTML"
     }
 ]
