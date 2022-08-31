@@ -5,8 +5,8 @@
         "image": "./images/Purly.jpg",
         "github": "https://github.com/hectorromo06/purly",
         "url": "https://purly.herokuapp.com/",
-        "description": "This is a collabrative application that was done by myself and 5 other students. The application is for people who are into knitting at all skill levels allowing them to find patterns for their projects and add new ones",
-        "languages": "MongoDB | Mongoose | GraphQL | React | Express.js | Node.js | CSS | HTML"
+        "description": "This is a collabrative application that was done by myself and 5 other students from my coding bootcamp. The application is for people who are into knitting at all skill levels allowing them to find patterns for their projects and add new ones. I created the models, queries, mutations and the 'Add Pattern' react form.",
+        "languages": "MongoDB | Mongoose | GraphQL | React | Express.js | Node.js | UIkit | CSS | HTML"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "image": "./images/MyGardenPlannerHero.jpg",
         "github": "https://github.com/ptran77/garden-planner",
         "url": "https://garden-planner-90482.herokuapp.com/",
-        "description": "This was a collaborative project that myself and three other classmates worked on from my Coding Bootcamp. The site we developed is dedicated to those seeking to learn about gardening",
+        "description": "This was a collaborative project that myself and three other classmates worked on from my Coding Bootcamp. The site we developed is dedicated to those seeking to learn about gardening. I created the models, the 'Single Fruit/Vegetable' page and the 'Add Fruit/Vegetable' form.",
         "languages": "MySQL | Sequelize ODM | Node.js | Express.js | .env | Handlebars | Tailwind CSS | HTML | CSS"
     },
     {
@@ -23,7 +23,7 @@
         "image": "./images/TuneBlastHero.jpg",
         "github": "https://github.com/mpeterson56/Tune-Blast",
         "url": "https://mpeterson56.github.io/Tune-Blast/?",
-        "description": "This was a collaborative project that myself and one other classmate worked on from my Coding Bootcamp. The appllication allows you to look up lyrics from your favorite band's songs",
+        "description": "This was a collaborative project that myself and one other classmate worked on from my Coding Bootcamp. The appllication allows you to look up lyrics from your favorite band's songs. I handled all of the JavaScript programming for the application.",
         "languages": "JavaScript | UIkit | HTML | CSS"
     },
     {
