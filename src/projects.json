@@ -5,7 +5,7 @@
         "image": "./images/Purly.jpg",
         "github": "https://github.com/hectorromo06/purly",
         "url": "https://purly.herokuapp.com/",
-        "description": "This is a collaborative MERN application that was done by myself and five other students from my Full Stack Web Development bootcamp. The application is for people who are into knitting at all skill levels allowing them to find patterns for their projects and add new ones. I created the models, queries, mutations and the 'Add Pattern' React.js form.",
+        "description": "This is a collaborative MERN application that was done by myself and five other students. The application is for people who are into knitting allowing them to find patterns for their projects and add new ones. I created the models, queries, mutations and the 'Add Pattern' React.js form.",
         "languages": "MongoDB | Mongoose | GraphQL | React | Express.js | Node.js | UIkit | CSS | HTML"
     },
     {
@@ -14,7 +14,7 @@
         "image": "./images/MyGardenPlannerHero.jpg",
         "github": "https://github.com/ptran77/garden-planner",
         "url": "https://garden-planner-90482.herokuapp.com/",
-        "description": "This was a collaborative project that myself and three other classmates worked on from my Coding Bootcamp. The site we developed is dedicated to those seeking to learn about gardening. I created the models, the 'Single Fruit/Vegetable' page and the 'Add Fruit/Vegetable' form.",
+        "description": "This was a collaborative project that myself and three other classmates worked on from my Full Stack Web Development bootcamp. The site we developed is dedicated to those seeking to learn about gardening. I created the models, the 'Single Fruit/Vegetable' page and the 'Add Fruit/Vegetable' form.",
         "languages": "MySQL | Sequelize ODM | Node.js | Express.js | .env | Handlebars | Tailwind CSS | HTML | CSS"
     },
     {
