@@ -5,7 +5,7 @@
         "image": "./images/Purly.jpg",
         "github": "https://github.com/hectorromo06/purly",
         "url": "https://purly.herokuapp.com/",
-        "description": "This is a collaborative MERN application that was done by myself and five other students. The application is for people who are into knitting allowing them to find patterns for their projects and add new ones. I created the models, queries, mutations and the 'Add Pattern' React.js form.",
+        "description": "This is a collaborative MERN application that was done by myself and five other students from my Full Stack Web Development bootcamp. The application is for people who are into knitting at all skill levels allowing them to find patterns for their projects and add new ones. I created the models, queries, mutations and the 'Add Pattern' React.js form.",
         "languages": "MongoDB | Mongoose | GraphQL | React | Express.js | Node.js | UIkit | CSS | HTML"
     },
     {
