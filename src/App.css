@@ -185,6 +185,8 @@ h6 a {
   text-decoration: none;
   color: rgb(117, 116, 116);
 }
+
+/* MEDIA QUERY FOR 27 INCH MONITORS */
 @media screen and (max-width: 1920px) {
   .footer {
     position: relative;
