@@ -185,6 +185,12 @@ h6 a {
   text-decoration: none;
   color: rgb(117, 116, 116);
 }
+@media screen and (max-width: 1920px) {
+  .footer {
+    position: relative;
+    bottom: 0; 
+  }
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
