@@ -1,6 +1,6 @@
 import React from 'react'
 import Angel from '../../assets/images/angel.jpg'
-import '../../fixedFooter.css'
+// import '../../fixedFooter.css'
 
 function About() {
 

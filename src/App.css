@@ -8,8 +8,8 @@
 }
 
 main {
-	margin: 0 auto;
-	max-width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
   padding: 50px 30px;
 }
 
@@ -111,7 +111,7 @@ header nav ul li {
 }
 
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -121,7 +121,7 @@ header nav ul li {
   border-radius: 2px;
   /* height: 525px; */
   margin: 1rem;
-  /* margin-bottom: 50px; */
+  margin-bottom: 100px;
   position: relative;
   width: 325px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
@@ -185,14 +185,6 @@ header nav ul li {
 h6 a {
   text-decoration: none;
   color: rgb(117, 116, 116);
-}
-
-/* MEDIA QUERY FOR 27 INCH MONITORS */
-@media screen and (max-width: 1920px) {
-  .footer {
-    position: relative;
-    bottom: 0; 
-  }
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
