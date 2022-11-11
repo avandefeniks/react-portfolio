@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from "../../projects.json";
-import '../../relative.css'
+// import '../../relative.css'
 
 function Projects() {
 
