@@ -6,8 +6,9 @@ function Resume() {
     return (
         <div className='div-resume'>
             <h2>Resume</h2>
-            <h6>Download my <span className='resume-link'><a href="../../../public/files/AngelVandeFeniksResume.docx" 
-                    download>resume</a></span></h6>
+            <h6>Download my <span className='resume-link'>
+                <a href="https://github.com/avandefeniks/react-portfolio/blob/main/public/files/AngelVandeFeniksResume.docx" 
+                    download>resume</a>.</span></h6>
             <h4>Front-end Proficiencies</h4>
             <ul className='resume-list'>
                 <li>
