@@ -6,6 +6,9 @@ This is a portfolio application that was built with React. It contains an "About
 
 ## Technologies Used
 * React.js
+* Javascript
+* CSS
+* HTML
 
 ### Deployed Application
 [https://avandefeniks.github.io/react-portfolio/](https://avandefeniks.github.io/react-portfolio/)
