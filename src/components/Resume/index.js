@@ -6,21 +6,29 @@ function Resume() {
     // Function will execute on click of button
     const onButtonClick = () => {
         // using Java Script method to get resume file
-        fetch('/AngelVandeFeniksResume.docx').then((response) => {
+        fetch('/AngelVandeFeniksResume.pdf')
+        // , {
+        //     method: 'GET',
+        //     headers: {
+        //         'Content-type': 'application/pdf'
+        //     },
+        //     responseType: 'blob'
+        // })
+        .then((response) => {
             response.blob().then((blob) => {
                 // Creating new object of resume file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'AngelVandeFeniksResume.docx';
+                alink.download = 'AngelVandeFeniksResume.pdf';
                 alink.click();
             })
         })
     }
 
     const onDownload = () => {
-        saveAs('/AngelVandeFeniksResume.docx', "AngelVandeFeniksResume.docx");
+        saveAs('/AngelVandeFeniksResume.pdf', "AngelVandeFeniksResume.pdf");
     };
 
     return (
