@@ -33,7 +33,7 @@ function Resume() {
 
     return (
         <div className='div-resume'>
-            <h2>Resume</h2>
+            <h2>Skills</h2>
             {/* <h6>Download my
                 <button className='resume-btn' onClick={onDownload}>resume</button>.
             </h6> */}

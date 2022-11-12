@@ -22,7 +22,7 @@ function Header({setpage}) {
                     <li className="col" onClick={(e) => activeNav(e, 'about')}>About Me</li>
                     <li className="col" onClick={(e) => activeNav(e, 'projects')}>Portfolio</li>
                     <li className="col" onClick={(e) => activeNav(e, 'contact')}>Contact</li>
-                    <li className="col" onClick={(e) => activeNav(e, 'resume')}>Resume</li>
+                    <li className="col" onClick={(e) => activeNav(e, 'resume')}>Skills</li>
                 </ul>
             </nav>
         </header>
