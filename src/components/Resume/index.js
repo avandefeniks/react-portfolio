@@ -34,9 +34,9 @@ function Resume() {
     return (
         <div className='div-resume'>
             <h2>Resume</h2>
-            <h6>Download my
+            {/* <h6>Download my
                 <button className='resume-btn' onClick={onDownload}>resume</button>.
-            </h6>
+            </h6> */}
             <h4>Front-end Proficiencies</h4>
             <ul className='resume-list'>
                 <li>
