@@ -1,14 +1,34 @@
 import React from 'react';
+import { saveAs } from 'file-saver';
 
 function Resume() {
 
+    // Function will execute on click of button
+    const onButtonClick = () => {
+        // using Java Script method to get resume file
+        fetch('/AngelVandeFeniksResume.docx').then((response) => {
+            response.blob().then((blob) => {
+                // Creating new object of resume file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'AngelVandeFeniksResume.docx';
+                alink.click();
+            })
+        })
+    }
+
+    const onDownload = () => {
+        saveAs('/AngelVandeFeniksResume.docx', "AngelVandeFeniksResume.docx");
+    };
 
     return (
         <div className='div-resume'>
             <h2>Resume</h2>
-            <h6>Download my <span className='resume-link'>
-                <a href="https://github.com/avandefeniks/react-portfolio/blob/main/public/files/AngelVandeFeniksResume.docx" 
-                    download>resume</a>.</span></h6>
+            <h6>Download my
+                <button className='resume-btn' onClick={onDownload}>resume</button>.
+            </h6>
             <h4>Front-end Proficiencies</h4>
             <ul className='resume-list'>
                 <li>
